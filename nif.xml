@@ -423,6 +423,94 @@
         <option value="4239621792" name="SKY_HAV_MAT_UNKNOWN_4239621792">Unknown in Creation Kit v1.9.32.0. Found in Dawnguard DLC in meshes\dlc01\prototype\dlc1protoswingingbridge.nif.</option>
         <option value="4283869410" name="SKY_HAV_MAT_MATERIAL_BOULDER_MEDIUM">Material Boulder Medium</option>
     </enum>
+	
+    <enum name="Fallout4HavokMaterial" storage="uint">
+        Bethesda Havok. Material descriptor for a Havok shape in Fallout 4.
+		<option value="637959445" name="NullMaterial">NullMaterial</option>
+		<option value="186875565" name="Generic">Generic</option>
+		<option value="2618338422" name="ActorGeneric">ActorGeneric</option>
+		<option value="3535888989" name="ActorCrabAmored">ActorCrabAmored</option>
+		<option value="4065019328" name="ActorGhost">ActorGhost</option>
+		<option value="1395526401" name="ActorInsect">ActorInsect</option>
+		<option value="1317396055" name="ActorMetal">ActorMetal</option>
+		<option value="1526052914" name="ActorMetalLarge">ActorMetalLarge</option>
+		<option value="1994095519" name="ActorMetalSmall">ActorMetalSmall</option>
+		<option value="4226720064" name="ActorSkeleton">ActorSkeleton</option>
+		<option value="1423343525" name="ActorSkin">ActorSkin</option>
+		<option value="1124183901" name="ActorSkinLarge">ActorSkinLarge</option>
+		<option value="1865379056" name="ActorSkinSmall">ActorSkinSmall</option>
+		<option value="748236019" name="ArmorHeavy">ArmorHeavy</option>
+		<option value="1035078235" name="ArmorLight">ArmorLight</option>
+		<option value="504699171" name="Arrow">Arrow</option>
+		<option value="3967487527" name="Basket">Basket</option>
+		<option value="335700075" name="Bone">Bone</option>
+		<option value="2505999314" name="Book">Book</option>
+		<option value="493553910" name="Bottle">Bottle</option>
+		<option value="172611777" name="BottleSmall">BottleSmall</option>
+		<option value="2391655390" name="Brick">Brick</option>
+		<option value="2414409334" name="Carpet">Carpet</option>
+		<option value="885278459" name="CeramicMedium">CeramicMedium</option>
+		<option value="1998647255" name="Chain">Chain</option>
+		<option value="2603377500" name="Cloth">Cloth</option>
+		<option value="630687820" name="ClothCushion">ClothCushion</option>
+		<option value="1949124673" name="Coin">Coin</option>
+		<option value="911716378" name="Concrete">Concrete</option>
+		<option value="3336356181" name="Dirt">Dirt</option>
+		<option value="1340314491" name="DirtStairs">DirtStairs</option>
+		<option value="2702620605" name="Glass">Glass</option>
+		<option value="3908121539" name="GlassStairs">GlassStairs</option>
+		<option value="1848600814" name="Grass">Grass</option>
+		<option value="3516301976" name="GrassStairs">GrassStairs</option>
+		<option value="428587608" name="Gravel">Gravel</option>
+		<option value="873356572" name="Ice">Ice</option>
+		<option value="668408902" name="Insect">Insect</option>
+		<option value="3542169129" name="Meat">Meat</option>
+		<option value="104858580" name="Metal">Metal</option>
+		<option value="2050332274" name="MetalBarrel">MetalBarrel</option>
+		<option value="2347511436" name="MetalHeavy">MetalHeavy</option>
+		<option value="3449125690" name="MetalHollow">MetalHollow</option>
+		<option value="2596735012" name="MetalLight">MetalLight</option>
+		<option value="706373264" name="MetalSolid">MetalSolid</option>
+		<option value="1486385281" name="Mud">Mud</option>
+		<option value="3467530788" name="Organic">Organic</option>
+		<option value="4157040884" name="Paper">Paper</option>
+		<option value="2113564165" name="Plastic">Plastic</option>
+		<option value="2429083791" name="PotsPans">PotsPans</option>
+		<option value="4274107122" name="Sand">Sand</option>
+		<option value="3339028924" name="Skeleton">Skeleton</option>
+		<option value="591247106" name="Skin">Skin</option>
+		<option value="3517247542" name="ShieldHeavy">ShieldHeavy</option>
+		<option value="3230652062" name="ShieldLight">ShieldLight</option>
+		<option value="398949039" name="Snow">Snow</option>
+		<option value="950426180" name="SnowStairs">SnowStairs</option>
+		<option value="2700938696" name="Stone">Stone</option>
+		<option value="1782067423" name="StoneAsStairs">StoneAsStairs</option>
+		<option value="4166300515" name="StoneBoulderLarge">StoneBoulderLarge</option>
+		<option value="3190871108" name="StoneBoulderMedium">StoneBoulderMedium</option>
+		<option value="3564794062" name="StoneBoulderSmall">StoneBoulderSmall</option>
+		<option value="1413383033" name="StoneBroken">StoneBroken</option>
+		<option value="811073006" name="StoneBrokenStairs">StoneBrokenStairs</option>
+		<option value="4188456377" name="StoneHeavy">StoneHeavy</option>
+		<option value="3923055370" name="StoneStairs">StoneStairs</option>
+		<option value="1024582599" name="Water">Water</option>
+		<option value="3983211119" name="WaterPuddle">WaterPuddle</option>
+		<option value="2507611836" name="Web">Web</option>
+		<option value="1686023090" name="WeaponAxe1Hand">WeaponAxe1Hand</option>
+		<option value="1858539770" name="WeaponBlade1Hand">WeaponBlade1Hand</option>
+		<option value="4053482366" name="WeaponBlade1HandSmall">WeaponBlade1HandSmall</option>
+		<option value="694643242" name="WeaponBlade2Hand">WeaponBlade2Hand</option>
+		<option value="2234736292" name="WeaponBlunt1Hand">WeaponBlunt1Hand</option>
+		<option value="3264423028" name="WeaponBlunt2Hand">WeaponBlunt2Hand</option>
+		<option value="238888479" name="WeaponBowsStaves">WeaponBowsStaves</option>
+		<option value="2122774061" name="WeaponPistol">WeaponPistol</option>
+		<option value="896127965" name="WeaponRifle">WeaponRifle</option>
+		<option value="500811281" name="Wood">Wood</option>
+		<option value="3038864286" name="WoodBarrel">WoodBarrel</option>
+		<option value="2648601319" name="WoodAsStairs">WoodAsStairs</option>
+		<option value="2961055734" name="WoodHeavy">WoodHeavy</option>
+		<option value="2706717022" name="WoodLight">WoodLight</option>
+		<option value="1879074862" name="WoodStairs">WoodStairs</option>
+    </enum>
 
     <enum name="OblivionLayer" storage="byte">
         Bethesda Havok. Describes the collision layer a body belongs to in Oblivion.
@@ -1839,7 +1927,8 @@
         <add name="Unknown Int" type="uint" ver2="10.0.1.2" />
         <add name="Material" suffix="OB" type="OblivionHavokMaterial" ver2="20.0.0.5" vercond="(User Version 2 &lt; 16)">The material of the shape.</add>
         <add name="Material" suffix="FO" type="Fallout3HavokMaterial" vercond="(Version == 20.2.0.7) &amp;&amp; (User Version 2 &lt;= 34)">The material of the shape.</add>
-        <add name="Material" suffix="SK" type="SkyrimHavokMaterial" vercond="(Version == 20.2.0.7) &amp;&amp; (User Version 2 &gt; 34)">The material of the shape.</add>
+        <add name="Material" suffix="SK" type="SkyrimHavokMaterial" vercond="(Version == 20.2.0.7) &amp;&amp; (User Version 2 &gt; 34) &amp;&amp; (User Version 2 != 130)">The material of the shape.</add>
+        <add name="Material" suffix="FO4" type="Fallout4HavokMaterial" vercond="(Version == 20.2.0.7) &amp;&amp; (User Version 2 &gt; 34) &amp;&amp; (User Version 2 == 130)">The material of the shape.</add>
     </compound>
 
     <compound name="OblivionSubShape">
