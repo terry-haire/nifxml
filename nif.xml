@@ -424,92 +424,93 @@
         <option value="4283869410" name="SKY_HAV_MAT_MATERIAL_BOULDER_MEDIUM">Material Boulder Medium</option>
     </enum>
 	
+	<!-- These values were obtained from 3ds max 2013 using the nif export utility. The name fields are based on those previously used in this file. -->
     <enum name="Fallout4HavokMaterial" storage="uint">
         Bethesda Havok. Material descriptor for a Havok shape in Fallout 4.
-		<option value="637959445" name="NullMaterial">NullMaterial</option>
-		<option value="186875565" name="Generic">Generic</option>
-		<option value="2618338422" name="ActorGeneric">ActorGeneric</option>
-		<option value="3535888989" name="ActorCrabAmored">ActorCrabAmored</option>
-		<option value="4065019328" name="ActorGhost">ActorGhost</option>
-		<option value="1395526401" name="ActorInsect">ActorInsect</option>
-		<option value="1317396055" name="ActorMetal">ActorMetal</option>
-		<option value="1526052914" name="ActorMetalLarge">ActorMetalLarge</option>
-		<option value="1994095519" name="ActorMetalSmall">ActorMetalSmall</option>
-		<option value="4226720064" name="ActorSkeleton">ActorSkeleton</option>
-		<option value="1423343525" name="ActorSkin">ActorSkin</option>
-		<option value="1124183901" name="ActorSkinLarge">ActorSkinLarge</option>
-		<option value="1865379056" name="ActorSkinSmall">ActorSkinSmall</option>
-		<option value="748236019" name="ArmorHeavy">ArmorHeavy</option>
-		<option value="1035078235" name="ArmorLight">ArmorLight</option>
-		<option value="504699171" name="Arrow">Arrow</option>
-		<option value="3967487527" name="Basket">Basket</option>
-		<option value="335700075" name="Bone">Bone</option>
-		<option value="2505999314" name="Book">Book</option>
-		<option value="493553910" name="Bottle">Bottle</option>
-		<option value="172611777" name="BottleSmall">BottleSmall</option>
-		<option value="2391655390" name="Brick">Brick</option>
-		<option value="2414409334" name="Carpet">Carpet</option>
-		<option value="885278459" name="CeramicMedium">CeramicMedium</option>
-		<option value="1998647255" name="Chain">Chain</option>
-		<option value="2603377500" name="Cloth">Cloth</option>
-		<option value="630687820" name="ClothCushion">ClothCushion</option>
-		<option value="1949124673" name="Coin">Coin</option>
-		<option value="911716378" name="Concrete">Concrete</option>
-		<option value="3336356181" name="Dirt">Dirt</option>
-		<option value="1340314491" name="DirtStairs">DirtStairs</option>
-		<option value="2702620605" name="Glass">Glass</option>
-		<option value="3908121539" name="GlassStairs">GlassStairs</option>
-		<option value="1848600814" name="Grass">Grass</option>
-		<option value="3516301976" name="GrassStairs">GrassStairs</option>
-		<option value="428587608" name="Gravel">Gravel</option>
-		<option value="873356572" name="Ice">Ice</option>
-		<option value="668408902" name="Insect">Insect</option>
-		<option value="3542169129" name="Meat">Meat</option>
-		<option value="104858580" name="Metal">Metal</option>
-		<option value="2050332274" name="MetalBarrel">MetalBarrel</option>
-		<option value="2347511436" name="MetalHeavy">MetalHeavy</option>
-		<option value="3449125690" name="MetalHollow">MetalHollow</option>
-		<option value="2596735012" name="MetalLight">MetalLight</option>
-		<option value="706373264" name="MetalSolid">MetalSolid</option>
-		<option value="1486385281" name="Mud">Mud</option>
-		<option value="3467530788" name="Organic">Organic</option>
-		<option value="4157040884" name="Paper">Paper</option>
-		<option value="2113564165" name="Plastic">Plastic</option>
-		<option value="2429083791" name="PotsPans">PotsPans</option>
-		<option value="4274107122" name="Sand">Sand</option>
-		<option value="3339028924" name="Skeleton">Skeleton</option>
-		<option value="591247106" name="Skin">Skin</option>
-		<option value="3517247542" name="ShieldHeavy">ShieldHeavy</option>
-		<option value="3230652062" name="ShieldLight">ShieldLight</option>
-		<option value="398949039" name="Snow">Snow</option>
-		<option value="950426180" name="SnowStairs">SnowStairs</option>
-		<option value="2700938696" name="Stone">Stone</option>
-		<option value="1782067423" name="StoneAsStairs">StoneAsStairs</option>
-		<option value="4166300515" name="StoneBoulderLarge">StoneBoulderLarge</option>
-		<option value="3190871108" name="StoneBoulderMedium">StoneBoulderMedium</option>
-		<option value="3564794062" name="StoneBoulderSmall">StoneBoulderSmall</option>
-		<option value="1413383033" name="StoneBroken">StoneBroken</option>
-		<option value="811073006" name="StoneBrokenStairs">StoneBrokenStairs</option>
-		<option value="4188456377" name="StoneHeavy">StoneHeavy</option>
-		<option value="3923055370" name="StoneStairs">StoneStairs</option>
-		<option value="1024582599" name="Water">Water</option>
-		<option value="3983211119" name="WaterPuddle">WaterPuddle</option>
-		<option value="2507611836" name="Web">Web</option>
-		<option value="1686023090" name="WeaponAxe1Hand">WeaponAxe1Hand</option>
-		<option value="1858539770" name="WeaponBlade1Hand">WeaponBlade1Hand</option>
-		<option value="4053482366" name="WeaponBlade1HandSmall">WeaponBlade1HandSmall</option>
-		<option value="694643242" name="WeaponBlade2Hand">WeaponBlade2Hand</option>
-		<option value="2234736292" name="WeaponBlunt1Hand">WeaponBlunt1Hand</option>
-		<option value="3264423028" name="WeaponBlunt2Hand">WeaponBlunt2Hand</option>
-		<option value="238888479" name="WeaponBowsStaves">WeaponBowsStaves</option>
-		<option value="2122774061" name="WeaponPistol">WeaponPistol</option>
-		<option value="896127965" name="WeaponRifle">WeaponRifle</option>
-		<option value="500811281" name="Wood">Wood</option>
-		<option value="3038864286" name="WoodBarrel">WoodBarrel</option>
-		<option value="2648601319" name="WoodAsStairs">WoodAsStairs</option>
-		<option value="2961055734" name="WoodHeavy">WoodHeavy</option>
-		<option value="2706717022" name="WoodLight">WoodLight</option>
-		<option value="1879074862" name="WoodStairs">WoodStairs</option>
+		<option value="637959445" name="FO4_HAV_MAT_NULL">Null Material</option>
+		<option value="186875565" name="FO4_HAV_MAT_GENERIC">Generic</option>
+		<option value="2618338422" name="FO4_HAV_MAT_ACTOR_GENERIC">Actor Generic</option>
+		<option value="3535888989" name="FO4_HAV_MAT_ACTOR_CRAB_AMORED">Actor Crab Armored</option>
+		<option value="4065019328" name="FO4_HAV_MAT_ACTOR_GHOST">Actor Ghost</option>
+		<option value="1395526401" name="FO4_HAV_MAT_ACTOR_INSECT">Actor Insect</option>
+		<option value="1317396055" name="FO4_HAV_MAT_ACTOR_METAL">Actor Metal</option>
+		<option value="1526052914" name="FO4_HAV_MAT_ACTOR_METAL_LARGE">Actor Metal Large</option>
+		<option value="1994095519" name="FO4_HAV_MAT_ACTOR_METAL_SMALL">Actor Metal Small</option>
+		<option value="4226720064" name="FO4_HAV_MAT_ACTOR_SKELETON">Actor Skeleton</option>
+		<option value="1423343525" name="FO4_HAV_MAT_ACTOR_SKIN">Actor Skin</option>
+		<option value="1124183901" name="FO4_HAV_MAT_ACTOR_SKIN_LARGE">Actor Skin Large</option>
+		<option value="1865379056" name="FO4_HAV_MAT_ACTOR_SKIN_SMALL">Actor Skin Small</option>
+		<option value="748236019" name="FO4_HAV_MAT_ARMOR_HEAVY">Armor Heavy</option>
+		<option value="1035078235" name="FO4_HAV_MAT_ARMOR_LIGHT">Armor Light</option>
+		<option value="504699171" name="FO4_HAV_MAT_ARROW">Arrow</option>
+		<option value="3967487527" name="FO4_HAV_MAT_BASKET">Basket</option>
+		<option value="335700075" name="FO4_HAV_MAT_BONE">Bone</option>
+		<option value="2505999314" name="FO4_HAV_MAT_BOOK">Book</option>
+		<option value="493553910" name="FO4_HAV_MAT_BOTTLE">Bottle</option>
+		<option value="172611777" name="FO4_HAV_MAT_BOTTLE_SMALL">Bottle Small</option>
+		<option value="2391655390" name="FO4_HAV_MAT_BRICK">Brick</option>
+		<option value="2414409334" name="FO4_HAV_MAT_CARPET">Carpet</option>
+		<option value="885278459" name="FO4_HAV_MAT_CERAMIC_MEDIUM">Ceramic Medium</option>
+		<option value="1998647255" name="FO4_HAV_MAT_CHAIN">Chain</option>
+		<option value="2603377500" name="FO4_HAV_MAT_CLOTH">Cloth</option>
+		<option value="630687820" name="FO4_HAV_MAT_CLOTH_CUSHION">Cloth Cushion</option>
+		<option value="1949124673" name="FO4_HAV_MAT_COIN">Coin</option>
+		<option value="911716378" name="FO4_HAV_MAT_CONCRETE">Concrete</option>
+		<option value="3336356181" name="FO4_HAV_MAT_DIRT">Dirt</option>
+		<option value="1340314491" name="FO4_HAV_MAT_DIRT_STAIRS">Dirt Stairs</option>
+		<option value="2702620605" name="FO4_HAV_MAT_GLASS">Glass</option>
+		<option value="3908121539" name="FO4_HAV_MAT_GLASS_STAIRS">Glass Stairs</option>
+		<option value="1848600814" name="FO4_HAV_MAT_GRASS">Grass</option>
+		<option value="3516301976" name="FO4_HAV_MAT_GRASS_STAIRS">Grass Stairs</option>
+		<option value="428587608" name="FO4_HAV_MAT_GRAVEL">Gravel</option>
+		<option value="873356572" name="FO4_HAV_MAT_ICE">Ice</option>
+		<option value="668408902" name="FO4_HAV_MAT_INSECT">Insect</option>
+		<option value="3542169129" name="FO4_HAV_MAT_MEAT">Meat</option>
+		<option value="104858580" name="FO4_HAV_MAT_METAL">Metal</option>
+		<option value="2050332274" name="FO4_HAV_MAT_METAL_BARREL">Metal Barrel</option>
+		<option value="2347511436" name="FO4_HAV_MAT_METAL_HEAVY">Metal Heavy</option>
+		<option value="3449125690" name="FO4_HAV_MAT_METAL_HOLLOW">Metal Hollow</option>
+		<option value="2596735012" name="FO4_HAV_MAT_METAL_LIGHT">Metal Light</option>
+		<option value="706373264" name="FO4_HAV_MAT_METAL_SOLID">Metal Solid</option>
+		<option value="1486385281" name="FO4_HAV_MAT_MUD">Mud</option>
+		<option value="3467530788" name="FO4_HAV_MAT_ORGANIC">Organic</option>
+		<option value="4157040884" name="FO4_HAV_MAT_PAPER">Paper</option>
+		<option value="2113564165" name="FO4_HAV_MAT_PLASTIC">Plastic</option>
+		<option value="2429083791" name="FO4_HAV_MAT_POTSPANS">Pots Pans</option>
+		<option value="4274107122" name="FO4_HAV_MAT_SAND">Sand</option>
+		<option value="3339028924" name="FO4_HAV_MAT_SKELETON">Skeleton</option>
+		<option value="591247106" name="FO4_HAV_MAT_SKIN">Skin</option>
+		<option value="3517247542" name="FO4_HAV_MAT_SHIELD_HEAVY">Shield Heavy</option>
+		<option value="3230652062" name="FO4_HAV_MAT_SHIELD_LIGHT">Shield Light</option>
+		<option value="398949039" name="FO4_HAV_MAT_SNOW">Snow</option>
+		<option value="950426180" name="FO4_HAV_MAT_SNOW_STAIRS">Snow Stairs</option>
+		<option value="2700938696" name="FO4_HAV_MAT_STONE">Stone</option>
+		<option value="1782067423" name="FO4_HAV_MAT_STONE_AS_STAIRS">Stone As Stairs</option>
+		<option value="4166300515" name="FO4_HAV_MAT_STONE_BOULDER_LARGE">Stone Boulder Large</option>
+		<option value="3190871108" name="FO4_HAV_MAT_STONE_BOULDER_MEDIUM">Stone Boulder Medium</option>
+		<option value="3564794062" name="FO4_HAV_MAT_STONE_BOULDER_SMALL">Stone Boulder Small</option>
+		<option value="1413383033" name="FO4_HAV_MAT_STONE_BROKEN">Stone Broken</option>
+		<option value="811073006" name="FO4_HAV_MAT_STONE_BROKEN_STAIRS">Stone Broken Stairs</option>
+		<option value="4188456377" name="FO4_HAV_MAT_STONE_HEAVY">Stone Heavy</option>
+		<option value="3923055370" name="FO4_HAV_MAT_STONE_STAIRS">Stone Stairs</option>
+		<option value="1024582599" name="FO4_HAV_MAT_WATER">Water</option>
+		<option value="3983211119" name="FO4_HAV_MAT_WATER_PUDDLE">Water Puddle</option>
+		<option value="2507611836" name="FO4_HAV_MAT_WEB">Web</option>
+		<option value="1686023090" name="FO4_HAV_MAT_WEAPON_AXE_1HAND">Weapon Axe 1Hand</option>
+		<option value="1858539770" name="FO4_HAV_MAT_WEAPON_BLADE_1HAND">Weapon Blade 1Hand</option>
+		<option value="4053482366" name="FO4_HAV_MAT_WEAPON_BLADE_1HAND_SMALL">Weapon Blade 1Hand Small</option>
+		<option value="694643242" name="FO4_HAV_MAT_WEAPON_BLADE_2HAND">Weapon Blade 2Hand</option>
+		<option value="2234736292" name="FO4_HAV_MAT_WEAPON_BLUNT_1HAND">Weapon Blunt 1Hand</option>
+		<option value="3264423028" name="FO4_HAV_MAT_WEAPON_BLUNT_2HAND">Weapon Blunt 2Hand</option>
+		<option value="238888479" name="FO4_HAV_MAT_WEAPON_BOWS_STAVES">Weapon Bows Staves</option>
+		<option value="2122774061" name="FO4_HAV_MAT_WEAPON_PISTOL">Weapon Pistol</option>
+		<option value="896127965" name="FO4_HAV_MAT_WEAPON_RIFLE">Weapon Rifle</option>
+		<option value="500811281" name="FO4_HAV_MAT_WOOD">Wood</option>
+		<option value="3038864286" name="FO4_HAV_MAT_WOOD_BARREL">Wood Barrel</option>
+		<option value="2648601319" name="FO4_HAV_MAT_WOOD_AS_STAIRS">Wood As Stairs</option>
+		<option value="2961055734" name="FO4_HAV_MAT_WOOD_HEAVY">Wood Heavy</option>
+		<option value="2706717022" name="FO4_HAV_MAT_WOOD_LIGHT">Wood Light</option>
+		<option value="1879074862" name="FO4_HAV_MAT_WOOD_STAIRS">Wood Stairs</option>
     </enum>
 
     <enum name="OblivionLayer" storage="byte">
