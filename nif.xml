@@ -675,6 +675,49 @@
         <option value="47" name="SKYL_NULL">Null</option>
     </enum>
 
+	<!-- These values were obtained from 3ds max 2013 using the nif export utility. The name fields are based on those previously used in this file. -->
+    <enum name="Fallout4Layer" storage="byte">
+        Bethesda Havok. Describes the collision layer a body belongs to in Fallout 4.
+		<option value="0" name="FO4L_UNIDENTIFIED">Unidentified</option>
+		<option value="1" name="FO4L_STATIC">Static</option>
+		<option value="2" name="FO4L_ANIMSTATIC">Anim Static</option>
+		<option value="3" name="FO4L_TRANSPARENT">Transparent</option>
+		<option value="4" name="FO4L_CLUTTER">Clutter</option>
+		<option value="5" name="FO4L_WEAPON">Weapon</option>
+		<option value="6" name="FO4L_PROJECTILE">Projectile</option>
+		<option value="7" name="FO4L_SPELL">Spell</option>
+		<option value="8" name="FO4L_BIPED">Biped</option>
+		<option value="9" name="FO4L_TREE">Tree</option>
+		<option value="10" name="FO4L_PROP">Prop</option>
+		<option value="11" name="FO4L_WATER">Water</option>
+		<option value="12" name="FO4L_TRIGGER">Trigger</option>
+		<option value="13" name="FO4L_TERRAIN">Terrain</option>
+		<option value="14" name="FO4L_TRAP">Trap</option>
+		<option value="15" name="FO4L_NONCOLLIDABLE">NonCollidable</option>
+		<option value="16" name="FO4L_CLOUD_TRAP">Cloud Trap</option>
+		<option value="17" name="FO4L_GROUND">Ground</option>
+		<option value="18" name="FO4L_PORTAL">Portal</option>
+		<option value="19" name="FO4L_DEBRIS_SMALL">Small Debris</option>
+		<option value="20" name="FO4L_DEBRIS_LARGE">Large Debris</option>
+		<option value="21" name="FO4L_ACOUSTIC_SPACE">Acoustic Space</option>
+		<option value="22" name="FO4L_ACTORZONE">Actor Zone</option>
+		<option value="23" name="FO4L_PROJECTILEZONE">Projectile Zone</option>
+		<option value="24" name="FO4L_GASTRAP">Gas Trap</option>
+		<option value="25" name="FO4L_SHELLCASING">Shell Casing</option>
+		<option value="26" name="FO4L_TRANSPARENT_SMALL">Transparent Small</option>
+		<option value="27" name="FO4L_INVISIBLE_WALL">Invisible Wall</option>
+		<option value="28" name="FO4L_TRANSPARENT_SMALL_ANIM">Transparent Small Anim</option>
+		<option value="29" name="FO4L_CLUTTER_LARGE">Clutter Large</option>
+		<option value="30" name="FO4L_CHARACTER_CONTROLLER">Character Controller</option>
+		<option value="31" name="FO4L_STAIR_HELPER">Stair Helper</option>
+		<option value="44" name="FO4L_FX_COLLIDER">FX Collider</option>
+		<option value="48" name="FO4L_FALLING_TRAP">Falling Trap</option>
+		<option value="49" name="FO4L_NAVMESH_CUT">NavMesh Cut</option>
+		<option value="50" name="FO4L_CRITTER">Critter</option>
+		<option value="51" name="FO4L_SPELLTRIGGER">spell Trigger</option>
+		<option value="55" name="FO4L_CLUTTER_NONAVCUT">Clutter NoNavCut</option>
+    </enum>
+
     <enum name="MoppDataBuildType" storage="byte">
         Bethesda Havok.
         A byte describing if MOPP Data is organized into chunks (PS3) or not (PC)
@@ -1879,7 +1922,8 @@
         Bethesda Havok. Collision filter info representing Layer, Flags, Part Number, and Group all combined into one uint.
         <add name="Layer" suffix="OB" type="OblivionLayer" default="OL_STATIC" ver2="20.0.0.5" vercond="(User Version 2 &lt; 16)">The layer the collision belongs to.</add>
         <add name="Layer" suffix="FO" type="Fallout3Layer" default="FOL_STATIC" vercond="(Version == 20.2.0.7) &amp;&amp; (User Version 2 &lt;= 34)">The layer the collision belongs to.</add>
-        <add name="Layer" suffix="SK" type="SkyrimLayer" default="SKYL_STATIC" vercond="(Version == 20.2.0.7) &amp;&amp; (User Version 2 &gt; 34)">The layer the collision belongs to.</add>
+        <add name="Layer" suffix="SK" type="SkyrimLayer" default="SKYL_STATIC" vercond="(Version == 20.2.0.7) &amp;&amp; (User Version 2 &gt; 34) &amp;&amp; (User Version 2 != 130)">The layer the collision belongs to.</add>
+        <add name="Layer" suffix="FO4" type="Fallout4Layer" default="FO4L_STATIC" vercond="(Version == 20.2.0.7) &amp;&amp; (User Version 2 &gt; 34) &amp;&amp; (User Version 2 == 130)">The layer the collision belongs to.</add>
 
         <add name="Flags and Part Number" type="byte" default="0">FLAGS are stored in highest 3 bits:
         	Bit 7: sets the LINK property and controls whether this body is physically linked to others.
